@@ -30,3 +30,6 @@ event_actions('nethserver-rh-php71-php-fpm-update', qw(
     initialize-default-databases        00
 ));
 
+event_templates($event, qw(
+                 /etc/opt/rh/rh-php71/php-fpm.d/www.conf
+));

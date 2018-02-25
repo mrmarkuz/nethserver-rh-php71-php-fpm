@@ -35,3 +35,4 @@ rm -rf %{buildroot}
 * Tue Feb 26 2018 Markus Neuberger <info@markusneuberger.at> - 1.0.0-1
 - First release
 - For Moodle 3.4
+- Add /etc/opt/rh/rh-php71/php-fpm.d/www.conf template for port 9071
